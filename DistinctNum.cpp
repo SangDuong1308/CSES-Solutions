@@ -12,7 +12,7 @@ int main()
     }
     set<long long> res;
     for (long long i = 0; i < n; i++)
-    {
+    { 
         res.insert(a[i]);
     }
     cout<<res.size();
